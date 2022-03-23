@@ -20,8 +20,9 @@ jobs:
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile -t smyrninio/smyrninio-rep:hy548
-      
-    - name: Docker Push
-      run: docker push smyrninio/smyrninio-rep
+    - name: Build and push Docker image
+      uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+      with:
+          context: .
+          push: true
+          tags: smyrninio/smyrninio-rep:hy548
