@@ -6,6 +6,8 @@
 name: Publish HY548 course page image
 
 on:
+  push:
+    branches: main
   release:
     types: [published]
 
