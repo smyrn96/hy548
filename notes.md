@@ -20,6 +20,9 @@
     * docker run -p 8080:80 -d nginx:1.21.6 
     * docker cp Downloads/temp/index.html sweet_keldysh:usr/share/nginx/html/index.html \
     ![2 1(MY nginx)](https://user-images.githubusercontent.com/57632772/160251824-42450b96-2254-487e-9ec4-c424ea006004.png)
+    ![2 3 (New html file)](https://user-images.githubusercontent.com/57632772/160252142-db666f74-9c5e-4051-a3b8-e94dc61a9d76.png)
+
+    
 
 3.
     * git clone https://github.com/chazapis/hy548.git
