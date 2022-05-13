@@ -23,6 +23,7 @@
     helm repo update \
     helm install nginx-stable ingress-nginx/ingress-nginx \
     <img width="930" alt="Screenshot 2022-05-13 at 8 47 19 PM" src="https://user-images.githubusercontent.com/57632772/168339390-06ef4589-0065-4e85-9ce6-577f23a4394b.png"> \
+    kubectl patch svc ingress-nginx-controller --patch "$(cat external-ips.yaml) \
     <img width="918" alt="Screenshot 2022-05-13 at 9 09 47 PM" src="https://user-images.githubusercontent.com/57632772/168342594-7ef469f4-492e-404c-83f8-939e7e014af0.png">
 
     
