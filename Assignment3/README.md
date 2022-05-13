@@ -14,5 +14,13 @@
     
     
 2. \
-
+    kubectl apply -f load-test.yaml
+    kubectl scale deployment/infinite-calls --replicas 100
+    <img width="621" alt="Screenshot 2022-05-13 at 7 52 02 PM" src="https://user-images.githubusercontent.com/57632772/168331461-c70c3699-d199-48c8-bc89-f7741cbdc620.png">
+    
+3. \
+    helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx \
+    helm repo update \
+    helm install nginx-stable ingress-nginx/ingress-nginx
+    
 
