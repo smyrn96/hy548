@@ -21,6 +21,11 @@
 3. \
     helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx \
     helm repo update \
-    helm install nginx-stable ingress-nginx/ingress-nginx
+    helm install nginx-stable ingress-nginx/ingress-nginx \
+    <img width="930" alt="Screenshot 2022-05-13 at 8 47 19 PM" src="https://user-images.githubusercontent.com/57632772/168339390-06ef4589-0065-4e85-9ce6-577f23a4394b.png"> \
+    <img width="579" alt="Screenshot 2022-05-13 at 8 58 53 PM" src="https://user-images.githubusercontent.com/57632772/168341077-c9a73fa2-096b-4c6c-8c4c-5f6e42c7549d.png">
+    
+
+    
     
 
