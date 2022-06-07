@@ -1,0 +1,17 @@
+apiVersion: hy548.csd.uoc.gr/v1
+kind: Fruit
+metadata:
+  name: apple
+spec:
+  origin: "Lasithi"
+  count: 2
+  grams: 120
+---
+apiVersion: hy548.csd.uoc.gr/v1
+kind: Fruit
+metadata:
+  name: banana
+spec:
+  origin: "Rethimnon"
+  count: 3
+  grams: 160
