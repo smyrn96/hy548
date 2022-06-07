@@ -9,5 +9,8 @@
 
 2. \
    a. docker build --rm -t smyrninio/smyrninio-rep:assignment4_2 ./assignment4_2, docker push smyrninio/smyrninio-rep:assignment4_2 \
-   b. 
+   b. kubectl apply -f greeting-controller.yaml
+   
+3. \
+   a. docker build --rm -t smyrninio/smyrninio-rep:assignment4-3 ./assignment4_3, docker push smyrninio/smyrninio-rep:assignment4_3 
    
